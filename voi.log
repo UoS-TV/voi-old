@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.1)  17 AUG 2023 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.1)  17 AUG 2023 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/ss0117/voi/main.tex
-(c:/Users/ss0117/voi/main.tex
+**c:/Users/ss0117/voi/voi.tex
+(c:/Users/ss0117/voi/voi.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
 (c:/tools/TinyTeX/texmf-dist/tex/latex/base/report.cls
@@ -402,8 +402,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count319
 \l__pdf_internal_box=\box58
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./voi.aux)
+\openout1 = `voi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
@@ -465,11 +465,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 43.
- (./main.out) (./main.out)
+ (./voi.out) (./voi.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `voi.out'.
 
-<uos-logo.png, id=48, 1854.93pt x 438.6789pt>
+<uos-logo.png, id=16, 1854.93pt x 438.6789pt>
 File: uos-logo.png Graphic file (type png)
 <use uos-logo.png>
 Package pdftex.def Info: uos-logo.png  used on input line 46.
@@ -483,7 +483,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uos-logo.png>]
+{c:/tools/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uos-logo.png>] (./voi.toc)
+\tf@toc=\write4
+\openout4 = `voi.toc'.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -494,41 +498,27 @@ l.49 \chapter
 VOI 1.
 (./stock.tex [2
 
-] [3] [4] [5] [6]) (./rooms.tex
-Underfull \hbox (badness 3701) in paragraph at lines 22--22
-[]|\OT1/cmss/m/n/10 TV Stu-dio - All Gal-leries
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\OT1/cmss/m/n/10 TV Stu-dio - Sound
- []
-
-[7]) [8]
-VOI 2.
-[9
-
-] (./main.aux)
+] [3] [4] [5] [6]) [7] (./rooms.tex) [8] (./voi.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C03CA1F09E364D30AF57EE8DEF18D7B3;1555.
+Package rerunfilecheck Info: File `voi.out' has not changed.
+(rerunfilecheck)             Checksum: C2F340D8476A01FD4846BD14E7BA44D1;330.
  ) 
 Here is how much of TeX's memory you used:
- 17007 strings out of 477196
- 286470 string characters out of 5811768
+ 16982 strings out of 477196
+ 286135 string characters out of 5811768
  1946238 words of memory out of 5000000
- 37699 multiletter control sequences out of 15000+600000
- 570171 words of font info for 82 fonts, out of 8000000 for 9000
+ 37693 multiletter control sequences out of 15000+600000
+ 569877 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 94i,11n,93p,2253b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,93p,2252b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (10 pages, 319907 bytes).
+Output written on voi.pdf (9 pages, 315344 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 30 words of extra memory for PDF output out of 10000 (max. 10000000)
 

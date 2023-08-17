@@ -1,10 +1,10 @@
 import pandas as pd
 
-df = pd.read_csv('assets.csv').query('Active == "Yes"')
+df = pd.read_csv('User Selection List.csv').query('Active == "Yes"')
 
 df2 = df[(df["Year 1"]!="No")|(df["Year 2"]!="No")|(df["Year 4"]!="No")].replace(to_replace=['Yes', 'No'], value=['\checkmark', ''])
 
-stock = df2.query('`Asset Type` == 0')[['Category','Asset Name','Year 1','Year 2','Year 4']].sort_values(by=['Category','Year 1','Year 2','Year 4','Asset Name'],ascending=[True,False,False,False,True])
+stock = df2.query('`Asset Type` == 0')[['Category','Asset Name','Year 1','Year 2','Year 4']].sort_values(by=['Year 1','Year 2','Year 4','Asset Name'],ascending=[False,False,False,True])
 rooms = df2.query('`Asset Type` == 1')[['Category','Asset Name','Year 1','Year 2','Year 4']].sort_values(by=['Category','Year 1','Year 2','Year 4','Asset Name'],ascending=[True,False,False,False,True])
 
 for col in stock.columns:
@@ -41,7 +41,7 @@ with open('stock.tex', 'a') as file:
 
 
 # stock_latex = stock.to_latex(index=False,longtable=True,column_format="p{0.3\\textwidth}p{0.3\\textwidth}ccc")
-# rooms_latex = rooms.to_latex(index=False,longtable=True,column_format="p{0.3\\textwidth}p{0.3\\textwidth}ccc")
+rooms_latex = rooms.to_latex(index=False,longtable=True,column_format="p{0.2\\textwidth}p{0.4\\textwidth}ccc",caption="Rooms")
 
 
 # print(df)
@@ -54,6 +54,6 @@ with open('stock.tex', 'a') as file:
 # with open('stock.tex', 'w') as tf:
 #      tf.write(stock_latex)
 
-# # print(rooms_latex)
-# with open('rooms.tex', 'w') as tf:
-#      tf.write(rooms_latex)
+# print(rooms_latex)
+with open('rooms.tex', 'w') as tf:
+     tf.write(rooms_latex)

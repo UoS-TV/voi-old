@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Bookable Items and Rooms}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Stock}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Rooms}{8}{section.1.2}%

@@ -1,0 +1,86 @@
+\documentclass{report}
+
+
+% \usepackage[utf8]{inputenc}
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[a4paper]{geometry}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\addto\captionsenglish{\renewcommand\chaptername{VOI}}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{graphicx}
+
+
+\usepackage{amssymb}% for the checkmark
+
+\usepackage[acronym]{glossaries}
+
+\usepackage{hyperref}
+
+% \makeglossaries
+
+\newacronym{pcr}{PCR}{Production Control Room}
+\newacronym{scr}{SCR}{Sound Control Room}
+\newacronym{vcr}{VCR}{Vision Control Room}
+
+\title{
+\includegraphics[width=0.5\textwidth]{uos-logo.png}\\\vspace{1cm}
+Film Production and Broadcast Engineering\\Vidmeister Operating Instructions
+}
+\author{Alan Haigh \thanks{\href{mailto:a.haigh@surrey.ac.uk}{a.haigh@surrey.ac.uk}} \and Sam Sarjudeen \thanks{\href{mailto:s.sarjudeen@surrey.ac.uk}{s.sarjudeen@surrey.ac.uk}}}
+
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+% \chapter*{Introduction}
+
+\chapter{Bookable Items and Rooms}
+
+The department uses an online booking system for all bookable equipment and rooms. The tables in \ref{stock} and \ref{rooms} show all bookable stock items and rooms depending on year group. 3rd years (i.e. those on placement) aren't able to book on the system and, should they need to book anything while on placement, are encouraged to email DMM Stores or a technician who will arrange the booking with them.
+
+Information correct as of \today.
+
+\section{Stock}\label{stock}
+
+\input{stock}
+
+\newpage
+\section{Rooms}\label{rooms}
+
+\input{rooms}
+
+% \chapter{Room Guides}
+
+% \section{Television Studio}
+% \subsection{Studio Floor}
+% \subsection{Production Control Room}
+% The \gls{pcr}
+% \subsubsection{Producer}
+% \subsubsection{PA}
+% \subsubsection{Director}
+% \subsubsection{Vision Mixer}
+% \subsubsection{Engineer}
+% \subsubsection{Autocue Operator}
+% \subsubsection{GFX Operator}
+% \subsubsection{EVS Operator}
+% \subsection{Sound Control Room}
+% \subsubsection{Sound Mixer}
+% \subsubsection{Gram Operator/Comms Engineer}
+% This multipurpose position...
+% \subsection{Vision Control Room}
+% \section{LTC (Sound Mixing)}
+% \section{LTC (Colour Grading Suite)}
+
+\end{document}
