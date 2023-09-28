@@ -4,19 +4,24 @@
 \contentsline {section}{\numberline {1.2}Rooms}{12}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Room Guides}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Television Studio}{13}{section.2.1}%
+\contentsline {subsubsection}{TAR}{13}{section*.3}%
+\contentsline {subsubsection}{PCR (Front Row)}{13}{section*.4}%
+\contentsline {subsubsection}{PCR (Back Row)}{14}{section*.5}%
+\contentsline {subsubsection}{SCR}{14}{section*.6}%
+\contentsline {subsubsection}{VCR}{14}{section*.7}%
 \contentsline {subsection}{\numberline {2.1.1}Studio Floor}{14}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Production Control Room}{14}{subsection.2.1.2}%
-\contentsline {subsubsection}{Producer}{15}{section*.3}%
-\contentsline {subsubsection}{PA}{15}{section*.4}%
-\contentsline {subsubsection}{Director}{15}{section*.5}%
-\contentsline {subsubsection}{Vision Mixer}{15}{section*.6}%
-\contentsline {subsubsection}{Engineer}{15}{section*.7}%
-\contentsline {subsubsection}{Autocue Operator}{15}{section*.8}%
-\contentsline {subsubsection}{GFX Operator}{15}{section*.9}%
-\contentsline {subsubsection}{EVS Operator}{15}{section*.10}%
+\contentsline {subsubsection}{Producer}{15}{section*.8}%
+\contentsline {subsubsection}{PA}{15}{section*.9}%
+\contentsline {subsubsection}{Director}{15}{section*.10}%
+\contentsline {subsubsection}{Vision Mixer}{15}{section*.11}%
+\contentsline {subsubsection}{Engineer}{15}{section*.12}%
+\contentsline {subsubsection}{Autocue Operator}{15}{section*.13}%
+\contentsline {subsubsection}{GFX Operator}{15}{section*.14}%
+\contentsline {subsubsection}{EVS Operator}{15}{section*.15}%
 \contentsline {subsection}{\numberline {2.1.3}Sound Control Room}{15}{subsection.2.1.3}%
-\contentsline {subsubsection}{Sound Mixer}{15}{section*.11}%
-\contentsline {subsubsection}{Gram Operator/Comms Engineer}{15}{section*.12}%
+\contentsline {subsubsection}{Sound Mixer}{15}{section*.16}%
+\contentsline {subsubsection}{Gram Operator/Comms Engineer}{15}{section*.17}%
 \contentsline {subsection}{\numberline {2.1.4}Vision Control Room}{15}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}LTC (Sound Mixing)}{15}{section.2.2}%
 \contentsline {section}{\numberline {2.3}LTC (Colour Grading Suite)}{15}{section.2.3}%
