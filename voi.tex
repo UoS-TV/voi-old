@@ -8,7 +8,7 @@
 
 % Set page size and margins
 % Replace `letterpaper' with `a4paper' for UK/EU standard size
-\usepackage[a4paper]{geometry}
+\usepackage[a4paper,margin=1in]{geometry}
 
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -31,12 +31,13 @@
 \newacronym{pcr}{PCR}{Production Control Room}
 \newacronym{scr}{SCR}{Sound Control Room}
 \newacronym{vcr}{VCR}{Vision Control Room}
+\newacronym{tar}{TAR}{Technical Apparatus Room}
 
 \title{
 \includegraphics[width=0.5\textwidth]{uos-logo.png}\\\vspace{1cm}
 Film Production and Broadcast Engineering\\Vidmeister Operating Instructions
 }
-\author{Alan Haigh \thanks{\href{mailto:a.haigh@surrey.ac.uk}{a.haigh@surrey.ac.uk}} \and Sam Sarjudeen \thanks{\href{mailto:s.sarjudeen@surrey.ac.uk}{s.sarjudeen@surrey.ac.uk}}}
+\author{Alan Haigh \thanks{\href{mailto:a.haigh@surrey.ac.uk}{a.haigh@surrey.ac.uk}} \and Susan Pratt \thanks{\href{mailto:s.pratt@surrey.ac.uk}{s.pratt@surrey.ac.uk}} \and Sam Sarjudeen \thanks{\href{mailto:s.sarjudeen@surrey.ac.uk}{s.sarjudeen@surrey.ac.uk}}}
 
 
 
@@ -61,26 +62,98 @@ Information correct as of \today.
 
 \input{rooms}
 
-% \chapter{Room Guides}
+\chapter{Room Guides}
 
-% \section{Television Studio}
-% \subsection{Studio Floor}
-% \subsection{Production Control Room}
-% The \gls{pcr}
-% \subsubsection{Producer}
-% \subsubsection{PA}
-% \subsubsection{Director}
-% \subsubsection{Vision Mixer}
-% \subsubsection{Engineer}
-% \subsubsection{Autocue Operator}
-% \subsubsection{GFX Operator}
-% \subsubsection{EVS Operator}
-% \subsection{Sound Control Room}
-% \subsubsection{Sound Mixer}
-% \subsubsection{Gram Operator/Comms Engineer}
-% This multipurpose position...
-% \subsection{Vision Control Room}
-% \section{LTC (Sound Mixing)}
-% \section{LTC (Colour Grading Suite)}
+\section{Television Studio}
+\subsection*{Startup and Shutdown Procedure}
+
+These steps are for a part startup and shutdown. The TV Studio Technical Manager should be contacted for full startup and shutdown as there is critical infrastructure for DMM in the TV Studio. The shutdown process is the same as the startup procedure but in reverse.
+
+\begin{enumerate}
+    \item \gls{tar}
+          \begin{enumerate}
+              \item In the middle of the centre rack Power on MDU 4. This will turn on the CCUs.
+              \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\linewidth]{uos-logo.png}
+                \caption{CCU MDU}
+              \end{figure}
+              \item Underneath the CCU's, power on the MDU for the Sony vision mixer.
+              \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\linewidth]{uos-logo.png}
+                \caption{Vison Mixer MDU}
+              \end{figure}
+          \end{enumerate}
+    \item \gls{pcr} (Front Row)
+          \begin{enumerate}
+              \item In the rack closest to the \gls{tar}, turn on the vision mixer panel.
+              \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\linewidth]{uos-logo.png}
+                \caption{Vison Mixer Panel}
+              \end{figure}
+              \item At the bottom of that rack, turn on the speaker amp.
+              \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\linewidth]{uos-logo.png}
+                \caption{Speaker Amp}
+              \end{figure}
+              \item Turn on any monitors that aren't on.
+          \end{enumerate}
+    \item \gls{pcr} (Back Row)
+          \begin{enumerate}
+            \item At the engineering position (far left), reach through the empty rack and switch on the mains switch on the rear panel to the right of the rack.
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=.5\linewidth]{uos-logo.png}
+                \caption{Rear Desk Power Switch}
+              \end{figure}
+          \end{enumerate}
+
+    \item \gls{scr}
+    \begin{enumerate}
+        \item Behind the computer monitor to the right of the mixing desk, power on the sequential MDU. This will turn on all equipment in the room on sequentially to prevent any current overload or loud pops coming through the speakers.
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=.5\linewidth]{uos-logo.png}
+            \caption{\gls{scr} Sequential MDU}
+          \end{figure}
+    \end{enumerate}
+\item \gls{vcr}
+\begin{enumerate}
+    \item Switch on the lighting desk using the power button on the rear right of the desk.
+    \item Switch on the lighting monitor.
+    \item Switch on the vision engineering monitor.
+    \item Switch on the TV using the remote.
+\end{enumerate}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+\subsection{Studio Floor}
+\subsection{Production Control Room}
+The \gls{pcr}
+\subsubsection{Producer}
+\subsubsection{PA}
+\subsubsection{Director}
+\subsubsection{Vision Mixer}
+\subsubsection{Engineer}
+\subsubsection{Autocue Operator}
+\subsubsection{GFX Operator}
+\subsubsection{EVS Operator}
+\subsection{Sound Control Room}
+\subsubsection{Sound Mixer}
+\subsubsection{Gram Operator/Comms Engineer}
+This multipurpose position...
+\subsection{Vision Control Room}
+\section{LTC (Sound Mixing)}
+\section{LTC (Colour Grading Suite)}
 
 \end{document}
